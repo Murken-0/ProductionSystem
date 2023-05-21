@@ -17,15 +17,15 @@
 
 	public class HighSpeedProductionSystemFactory : ProductionSystemFactory
 	{
-		public override Robot CreateRobot() { }
-		public override Conveyor CreateConveyor() { }
+		public override List<Robot> CreateRobot() { }
+		public override List<Conveyor> CreateConveyor() { }
 		public override Sensor CreateSensor() { }
 	}
 
 	public class LowSpeedProductionSystemFactory : ProductionSystemFactory
 	{
-		public override Robot CreateRobot() { }
-		public override Conveyor CreateConveyor() { }
+		public override List<Robot> CreateRobot() { }
+		public override List<Conveyor> CreateConveyor() { }
 		public override Sensor CreateSensor() { }
 	}
 
